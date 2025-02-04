@@ -241,6 +241,95 @@ section {
     padding: 0 12px 0 0;
 }
 
+
+
+
+
+
+
+/* تحسين التصميم الأساسي */
+.support-container {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px; /* جعل الحجم مناسبًا */
+    text-align: center;
+    margin: 0 auto; /* يجعله في المنتصف */
+    margin-bottom: 30px; /* يعطي مسافة قبل "Let's Work Together" */
+    transition: all 0.3s ease-in-out;
+}
+
+/* تأثير عند تمرير الماوس */
+.support-container:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* عنوان النموذج */
+.support-container h2 {
+    font-size: 24px;
+    color: #2E8B57;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* تنسيق الحقول */
+.support-container label {
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: 600;
+}
+
+.support-container input,
+.support-container textarea {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: border-color 0.3s ease-in-out;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+/* تأثير عند التركيز */
+.support-container input:focus,
+.support-container textarea:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.4);
+}
+
+/* زر الإرسال */
+.support-container button {
+    width: 100%;
+    background: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    font-weight: bold;
+}
+
+/* تأثير عند التفاعل مع الزر */
+.support-container button:hover {
+    background: #45a049;
+    transform: scale(1.05);
+}
+
+.support-container button:active {
+    background: #3e8e41;
+    transform: scale(0.98);
+}
+
+
+
 @media (max-width:1023px){
     header{
         padding: 12px 20px;
